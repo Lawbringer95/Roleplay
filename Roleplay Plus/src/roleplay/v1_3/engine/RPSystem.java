@@ -77,7 +77,7 @@ public class RPSystem extends JavaPlugin {
 	public void onEnable(){
 		boolean filesOK = true;
 		log = Logger.getLogger("Minecraft");
-		logPrefix = "(MRPS " + this.getDescription().getVersion() + ") ";
+		logPrefix = "(RPP " + this.getDescription().getVersion() + ") ";
 		
 		
 		// SQL Stuff
