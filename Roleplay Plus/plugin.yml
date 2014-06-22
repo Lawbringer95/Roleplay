@@ -1,0 +1,178 @@
+name: roleplay
+depend: [Vault]
+author: Lawbringer
+version: 1.3.1-RC2
+main: roleplay.v1_3.engine.RPSystem
+commands:
+  o:
+    description: Player OOC broadcast
+    usage: /o message
+    default: true
+  ao:
+    description: Admin OOC broadcast
+    usage: /ao message
+    default: op
+  b:
+    description: Speak OOC in your area
+    usage: /b message
+    default: true
+  w:
+    description: Whisper to people very close to you
+    usage: /w message
+    default: true
+  low:
+    description: Speak low to people closer to you
+    usage: /low message
+    default: true
+  t:
+    description: Speak normally (or just use regular chat)
+    usage: /t message
+    default: true
+  s:
+    description: Shout to someone far away
+    usage: /s message
+    default: true
+  silence:
+    description: Mutes a player
+    usage: /silence player
+    default: op
+  unsilence:
+    description: Unmutes a player
+    usage: /unsilence player
+    default: op
+  name:
+    description: Sets your RP Name
+    usage: /name displayname
+    default: true
+  resetname:
+    description: Resets a players RP Name
+    usage: /resetname player
+    default: op
+  me:
+    description: Send a personal action
+    usage: /me action
+    default: true
+  do:
+    description: Send an environment action or question
+    usage: /do action
+    default: true
+  mrps:
+    description: Information Command
+    usage: /mrps
+    default: true
+  roll:
+    description: Send an environment action or question
+    usage: /roll maximumValue
+    default: true
+  a:
+    description: Admin Chat
+    usage: /a message
+    default: op
+  togb:
+    description: Toggles Local OOC except from admins
+    usage: /togb
+    default: op
+  togooc:
+    description: Toggles Global OOC except from admins
+    usage: /togooc
+    default: op
+  ooc:
+    description: Toggles usage of the Global OOC channel except by admins
+    usage: /ooc
+    default: op
+  ban:
+    description: Prevent a player from entering the server
+    usage: /ban player reason
+    default: op
+  tempban:
+    description: Temporarily prevent a player from entering the server
+    usage: /tempban player days reason
+    default: op
+  unban:
+    description: Releases a ban placed on a player
+    usage: /unban player
+    default: op
+  ajail:
+    description: Prevent a player from entering the server
+    usage: /ajail player minutes reason
+    default: op
+  arel:
+    description: Releases a player from ajail
+    usage: /arel player
+    default: op
+  kick:
+    description: Disconnects a player from the server
+    usage: /kick player reason
+    default: op
+  skick:
+    description: Silently disconnects a player from the server
+    usage: /skick player reason
+    default: op
+  admins:
+    description: Lists online admins
+    usage: /admins
+    default: op
+  adminduty:
+    description: Toggles admin duty
+    usage: /adminduty
+    default: op
+  setadminlevel:
+    description: Sets admin level, console only
+    usage: /setadminlevel player level
+    default: op
+  setdonlevel:
+    description: Sets donator level
+    usage: /setdonlevel player level
+    default: op
+  setjailspot:
+    description: Sets the spot for admin jail
+    usage: /setjailspot
+    default: op
+  lw:
+    description: Whisper to people very close to you in a language
+    usage: /lw message
+    default: true
+  llow:
+    description: Speak low to people closer to you in a language
+    usage: /llow message
+    default: true
+  lt:
+    description: Speak normally (or just use regular chat) in a language
+    usage: /lt message
+    default: true
+  ls:
+    description: Shout to someone far away in a language
+    usage: /ls message
+    default: true
+  setlang:
+    description: Sets your active language being spoken
+    usage: /setlang language
+    default: true
+  brew:
+    description: Brews alcohol
+    usage: /brew nameOfDrink
+    default: true
+  makedrugs:
+    description: Makes drugs
+    usage: /makedrugs nameOfDrug
+    default: true
+  sober:
+    description: Instantly sobers you up from drug or alcohol effects
+    usage: /sober drugs|alcohol
+    default: true
+  usedrug:
+    description: Uses a drug you have in your hand
+    usage: /usedrug
+    default: true
+  drink:
+    description: Drinks alcohol you have in your hand
+    usage: /drink
+    default: true
+  examine:
+    description: Examines a player
+    usage: /examine player
+    default: true
+  attributes:
+    description: Sets your description
+    usage: /attributes description under 30 chars
+    default: true
