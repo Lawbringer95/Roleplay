@@ -1,7 +1,7 @@
 name: roleplay
 depend: [Vault]
 author: Lawbringer
-version: 1.3.1-RC2
+version: 1.3.1-R1 Hotfix 1
 main: roleplay.v1_3.engine.RPSystem
 commands:
   o:
